@@ -1,0 +1,66 @@
+const Portfolio_data = [
+  {
+    id: 1,
+    category: "Backend Developer",
+    // totalLike: "Backend",
+    title: "Restaurant Managment System Application in Laravel ",
+    image: "https://quicktech-ltd.com/public/frontEnd/images/Restaurant-Management.png",
+  },
+  {
+    id: 2,
+    category: "Backend Developer",
+    // totalLike: "750",
+    title: "Real Time Chat Application in Laravel Livewire ",
+    image: "https://spng.subpng.com/20190606/ggt/kisspng-online-chat-computer-icons-portable-network-graphi-multiplayer-nano-gambling-ville-de-saint-etienne-5cf899d5428f04.9008657815597961812726.jpg",
+  },
+  {
+    id: 3,
+    category: "Backend Developer",
+    // totalLike: "630",
+    title: "Chart Data Visulization Application in Laravel ",
+    image: "https://datacopia.com/assets/images/Welcome/a.png",
+  },
+  {
+    id: 4,
+    category: "Backend Developer",
+    // totalLike: "360",
+    title: "Invoicing System Application in Laravel",
+    image: "https://w1.pngwing.com/pngs/845/301/png-transparent-invoice-red-electronic-invoicing-inventory-payment-computer-software-email-document-data-thumbnail.png",
+  },
+  {
+    id: 5,
+    category: "Backend Developer",
+    totalLike: "280",
+    title: "Rest Full API Application in Laravel CRUD and JWT Authuntication",
+    image: "https://miro.medium.com/max/440/1*J3G3akaMpUOLegw0p0qthA.png",
+  },
+  {
+    id: 6,
+    category: "Backend Developer",
+    totalLike: "690",
+    title: "Resources Managment System Application in Laravel",
+    image: "https://img.favpng.com/25/2/0/time-management-schedule-plan-task-png-favpng-JBk13wunXptBvWi6iNukGUZ4W_t.jpg",
+  },
+  {
+    id: 7,
+    category: "Frontend Developer",
+    totalLike: "690",
+    title: "App Frontend Developer 1",
+    image: "./image/portfolio-06.jpg",
+  },
+  {
+    id: 8,
+    category: "Frontend Developer",
+    totalLike: "690",
+    title: "App Frontend Developer 2",
+    image: "./image/portfolio-06.jpg",
+  },
+  {
+    id: 9,
+    category: "Frontend Developer",
+    totalLike: "690",
+    title: "App Frontend Developer 3",
+    image: "./image/portfolio-06.jpg",
+  },
+]
+export default Portfolio_data
