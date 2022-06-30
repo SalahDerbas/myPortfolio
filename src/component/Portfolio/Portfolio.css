@@ -137,6 +137,7 @@ body.active-modal {
   .modal,
   .overlay {
     overflow: scroll;
+    height: 800px;
   }
 
   .modal .modal-img {
@@ -148,5 +149,6 @@ body.active-modal {
   .modal .right,
   .modal .left {
     padding: 0;
+    height: 800px;
   }
 }
