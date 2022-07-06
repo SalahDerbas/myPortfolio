@@ -1,6 +1,10 @@
 .features .box {
   padding: 50px;
 }
+.features .btn_shadow .box_img {
+  height: 40%;
+  width: 100%;
+}
 .features .box h2 {
   margin: 20px 0 20px 0;
 }

@@ -25,7 +25,7 @@ const Testimonial = () => {
 
   return (
     <>
-      <section className="Testimonial" id="clients">
+      <section className="Testimonial" id="skills">
         <div className="container">
           <div className="heading text-center" style={{ marginTop: "217px" }}>
             <h4>WHAT SKILLS SAY</h4>

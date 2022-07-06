@@ -56,12 +56,15 @@ const Card = (props) => {
               <p>{props.f7}</p>
               <p>{props.f8}</p>
 
-              <div className="button f_flex mtop">
+              <div
+                className="button f_flex mtop"
+                style={{ marginTop: "100px" }}
+              >
                 <button className="btn_shadow">
-                  LIKE THIS <i class="far fa-thumbs-up"></i>
+                  GITHUB<i class="fab fa-github"></i>
                 </button>
                 <button className="btn_shadow">
-                  VIEW PROJECT<i class="fas fa-chevron-right"></i>
+                  YOUTUBE<i class="fab fa-youtube"></i>
                 </button>
                 <div style={{ marginLeft: "33px" }}>
                   <button className="btn_shadow" onClick={toggleModal}>

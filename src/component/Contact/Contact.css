@@ -40,6 +40,24 @@
 .Contact .right button i {
   margin-left: 10px;
 }
+.wrapper1 {
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 4vh;
+}
+
+.badge {
+  display: inline-block;
+  min-width: 2px;
+  padding: 6px 50px;
+  border-radius: 10%;
+  font-size: 25px;
+  text-align: start;
+  background: #ff014f;
+  color: #fefefe;
+}
 @media (max-width: 768px) {
   .Contact .d_flex {
     flex-direction: column;
