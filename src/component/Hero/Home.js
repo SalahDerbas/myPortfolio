@@ -69,7 +69,8 @@ const Home = () => {
                       <i class="fab fa-linkedin-in"></i>
                     </button>
                   </a>
-
+                  <br />
+                  <br />
                   <a href="https://github.com/SalahDerbas" target="_blank">
                     <button className="btn_shadow">
                       <i class="fab fa-github"></i>

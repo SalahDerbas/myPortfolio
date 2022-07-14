@@ -122,15 +122,6 @@ const Contact = () => {
                         <i class="fab fa-github"></i>
                       </button>
                     </a>
-
-                    <a
-                      href="https://www.youtube.com/channel/UCEYTgaou2YKbymbC0mUnAhw"
-                      target="_blank"
-                    >
-                      <button className="btn_shadow">
-                        <i class="fab fa-youtube"></i>
-                      </button>
-                    </a>
                   </div>
                 </div>
               </div>

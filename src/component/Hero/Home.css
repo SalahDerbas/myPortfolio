@@ -59,15 +59,15 @@
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 101px;
-  height: 601px;
-  width: 456px;
-  margin-top: 20%;
+  height: 627px;
+  width: 391px;
+  margin-top: 21%;
 }
 .hero .right_img img {
   position: absolute;
   top: 0;
-  right: 44%;
-  width: 386px;
+  /* right: 40%; */
+  width: 50%;
 }
 @media (max-width: 768px) {
   .hero .right,
@@ -81,7 +81,32 @@
     flex-direction: column-reverse;
   }
   .hero .right_img {
-    width: 100%;
+    width: 56%;
     height: 54vh;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 580px) {
+  .hero .right,
+  .hero .left {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .hero .f_flex {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .hero .right_img {
+    width: 56%;
+    height: 54vh;
+    margin-left: 10%;
+  }
+  .hero .right_img img {
+    position: absolute;
+    top: 0;
+    right: 9%;
+    width: 62%;
   }
 }

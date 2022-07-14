@@ -39,9 +39,9 @@
 
 /*-----Testimonial slide-----------*/
 .Testimonial .slide {
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
-  /* height: 500px; */
+  height: 900px;
   position: relative;
   display: flex;
   overflow: hidden;
