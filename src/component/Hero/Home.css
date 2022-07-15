@@ -66,7 +66,7 @@
 .hero .right_img img {
   position: absolute;
   top: 0;
-  right: 44%;
+  /* right: 44%; */
   width: 386px;
 }
 @media (max-width: 768px) {
