@@ -14,15 +14,15 @@ const Card = (props) => {
   }
   return (
     <>
-      <div className="box btn_shadow ">
+      <div className="box btn_shadow " style={{ cursor: "pointer"}}>
         <div className="img">
           <img src={props.image} alt="" onClick={toggleModal} />
         </div>
         <div className="category d_flex">
           <span onClick={toggleModal}>{props.category}</span>
-          <label>
-            <i className="far fa-heart"></i> {props.totalLike}
-          </label>
+            {/* <label>
+              <i className="far fa-heart"></i> {props.totalLike}
+            </label> */}
         </div>
         <div className="title">
           <h2 onClick={toggleModal}>{props.title}</h2>

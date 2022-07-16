@@ -43,7 +43,7 @@ const Home = () => {
 
             <div className="hero_btn d_flex">
               <div className="col_1">
-                <h4>FIND WITH ME</h4>
+                <h4>FIND ME WITH</h4>
                 <div className="button">
                   <a
                     href="https://www.facebook.com/salah.drbas.1"
@@ -69,7 +69,8 @@ const Home = () => {
                       <i class="fab fa-linkedin-in"></i>
                     </button>
                   </a>
-
+                  <br />
+                  <br />
                   <a href="https://github.com/SalahDerbas" target="_blank">
                     <button className="btn_shadow">
                       <i class="fab fa-github"></i>

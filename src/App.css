@@ -46,7 +46,7 @@ button {
   padding: 18px 25px;
   border-radius: 6px;
   transition: 0.3s all ease;
-  cursor: pointer;
+  /* cursor: pointer; */
   color: #000;
   transition: 0.5s;
 }
@@ -133,7 +133,7 @@ footer p {
 }
 
 .wrapper {
-  width: 400px;
+  width: 44%;
   font-family: "Roboto", sans-serif;
   margin: 50px;
 }
@@ -185,6 +185,7 @@ footer p {
 
 .skill1 .skill-count1 {
   right: 0;
+  left: 100%;
 }
 
 .skill1 {
@@ -197,6 +198,7 @@ footer p {
 
 .skill2 .skill-count2 {
   right: 0;
+  left: 100%;
 }
 
 .skill3 {
@@ -205,6 +207,7 @@ footer p {
 
 .skill3 .skill-count3 {
   right: 0;
+  left: 100%;
 }
 
 .skill4 {
@@ -213,6 +216,7 @@ footer p {
 
 .skill4 .skill-count4 {
   right: 0;
+  left: 100%;
 }
 
 .skill5 {
@@ -221,6 +225,7 @@ footer p {
 
 .skill5 .skill-count5 {
   right: 0;
+  left: 100%;
 }
 
 .skill6 {
@@ -229,6 +234,7 @@ footer p {
 
 .skill6 .skill-count6 {
   right: 0;
+  left: 100%;
 }
 
 .skill7 {
@@ -236,7 +242,14 @@ footer p {
 }
 
 .skill7 .skill-count7 {
-  right: 0;
+  right: 0px;
+  left: 100%;
+}
+
+@media (max-width: 1184px) {
+  .heading {
+    margin: 17px 0 17px 0;
+  }
 }
 
 

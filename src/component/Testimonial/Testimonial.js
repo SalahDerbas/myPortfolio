@@ -25,35 +25,64 @@ const Testimonial = () => {
 
   return (
     <>
+    
       <section className="Testimonial" id="skills">
         <div className="container">
+        <br/>
+
           <div className="heading text-center" style={{ marginTop: "217px" }}>
             <h4>WHAT SKILLS SAY</h4>
             <h1>SKILLS</h1>
+
+            <div class="list-group w-50">
+            
+              <a href="#" class="list-group-item list-group-item-action">
+                  
+                  <span class="badge1 rounded-pill bg-primary float-end">HTML/HTML5</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                  <span class="badge1 rounded-pill bg-primary float-end">CSS/CSS3</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                  <span class="badge1 rounded-pill bg-primary float-end">Bootstrap</span>
+              </a>
           </div>
+          </div>
+          
           <div className="slide">
             {/*{TestimonialApi.map((val, index) => {
               return <Slide key={index} image={val.image} design={val.design} name={val.name} offcer={val.offcer} post={val.post} date={val.date} desc={val.desc} />
             })}*/}
-            <div class="wrapper">
-              <div class="skill">
-                <p>HTML/HTML5</p>
+            
+            <div class="wrapper text-center">
+              <div>
+              <span class="badge1"><p class="" style={{color: "white"}}>HTML/HTML5</p></span>
+              </div>
+              <br />
+              <div>
+              <span class="badge1"><p style={{color: "white"}}>CSS/CSS3</p></span>
+              </div>
+              <br />
+              <div>
+              <span class="badge1"><p style={{color: "white"}}>Bootstrap</p></span>
+              </div>
+              {/* <div class="skill">
                 <div class="skill-bar skill1">
                   <span class="skill-count1">85%</span>
                 </div>
-              </div>
-              <div class="skill">
+              </div> */}
+              {/* <div class="skill">
                 <p>CSS/CSS3</p>
                 <div class="skill-bar skill2">
                   <span class="skill-count2">85%</span>
                 </div>
-              </div>
-              <div class="skill">
+              </div> */}
+              {/* <div class="skill">
                 <p>Bootstrap</p>
                 <div class="skill-bar skill3">
                   <span class="skill-count3">85%</span>
                 </div>
-              </div>
+              </div> */}
               <div class="skill">
                 <p>JavaScript</p>
                 <div class="skill-bar skill4">
@@ -69,6 +98,24 @@ const Testimonial = () => {
 
               <div class="skill">
                 <p>Ajax</p>
+                <div class="skill-bar skill4">
+                  <span class="skill-count4">70%</span>
+                </div>
+              </div>
+              <div class="skill">
+                <p>AWS</p>
+                <div class="skill-bar skill7">
+                  <span class="skill-count7">50%</span>
+                </div>
+              </div>
+              <div class="skill">
+                <p>SQL</p>
+                <div class="skill-bar skill4">
+                  <span class="skill-count4">70%</span>
+                </div>
+              </div>
+              <div class="skill">
+                <p>Jest/Testing</p>
                 <div class="skill-bar skill4">
                   <span class="skill-count4">70%</span>
                 </div>
@@ -97,7 +144,7 @@ const Testimonial = () => {
                 </div>
               </div>
               <div class="skill">
-                <p>PrimeReact/Material UI</p>
+                <p>PrimeReact UI</p>
                 <div class="skill-bar skill4">
                   <span class="skill-count4">70%</span>
                 </div>
@@ -115,8 +162,27 @@ const Testimonial = () => {
                   <span class="skill-count6">60%</span>
                 </div>
               </div>
+              <div class="skill">
+                <p>Agile</p>
+                <div class="skill-bar skill3">
+                  <span class="skill-count3">75%</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <p>Linux</p>
+                <div class="skill-bar skill3">
+                  <span class="skill-count3">75%</span>
+                </div>
+              </div>
+              <div class="skill">
+                <p>C/C++</p>
+                <div class="skill-bar skill3">
+                  <span class="skill-count3">75%</span>
+                </div>
+              </div>
             </div>
-            <div class="wrapper">
+            {/* <div class="wrapper">
               <div class="skill">
                 <p>Agile</p>
                 <div class="skill-bar skill3">
@@ -154,7 +220,7 @@ const Testimonial = () => {
                   <span class="skill-count3">75%</span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* {data.map((value, valueIndex) => {
               return <Slide key={value.id} {...value} valueIndex={valueIndex} index={index} />

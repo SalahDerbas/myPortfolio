@@ -59,6 +59,8 @@ const Contact = () => {
     <>
       <section className="Contact" id="contact">
         <div className="container top">
+        <br/><br/> <br/> <br/><br/><br/>
+
           <div className="heading text-center">
             <h4>CONTACT</h4>
             <h1>Contact With Me</h1>
@@ -85,13 +87,13 @@ const Contact = () => {
                   <br />
                   <br />
                   <br />
-                  <h4> Connect with me and call in to my account.</h4>
-                  <p>Phone: &nbsp;&nbsp;&nbsp;00963936453165</p>
+                  <h4> Connect with me :</h4>
+                  <p>Phone: &nbsp;&nbsp;&nbsp;(+963) 936453165</p>
                   <p>Email: &nbsp;&nbsp;&nbsp;&nbsp;salahdrbas1@gmail.com</p>
                   <br />
                   <br />
                   <br />
-                  <span>FIND WITH ME</span>
+                  <span>FIND ME WITH</span>
                   <div className="button f_flex">
                     <a
                       href="https://www.facebook.com/salah.drbas.1"
@@ -120,15 +122,6 @@ const Contact = () => {
                     <a href="https://github.com/SalahDerbas" target="_blank">
                       <button className="btn_shadow">
                         <i class="fab fa-github"></i>
-                      </button>
-                    </a>
-
-                    <a
-                      href="https://www.youtube.com/channel/UCEYTgaou2YKbymbC0mUnAhw"
-                      target="_blank"
-                    >
-                      <button className="btn_shadow">
-                        <i class="fab fa-youtube"></i>
                       </button>
                     </a>
                   </div>

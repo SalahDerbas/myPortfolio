@@ -42,7 +42,7 @@ const ResumeApi = [
   {
     id: 6,
     category: "experience",
-    year: "Backend Developer/ Laravel (01/2021 - Present)",
+    year: "Backend Developer/ Laravel (01/2019- Present)",
     title: "Freelancer",
     desc: "Work freely and for your own good - Several Management projects have been built -Project built Chat Application - Project built Portfolio Dynamic.",
     rate: "4/5 ",
