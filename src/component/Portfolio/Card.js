@@ -14,13 +14,13 @@ const Card = (props) => {
   }
   return (
     <>
-      <div className="box btn_shadow " style={{ cursor: "pointer"}}>
+      <div className="box btn_shadow " style={{ cursor: "pointer" }}>
         <div className="img">
           <img src={props.image} alt="" onClick={toggleModal} />
         </div>
         <div className="category d_flex">
           <span onClick={toggleModal}>{props.category}</span>
-            {/* <label>
+          {/* <label>
               <i className="far fa-heart"></i> {props.totalLike}
             </label> */}
         </div>
@@ -39,10 +39,6 @@ const Card = (props) => {
           <div className="modal-content d_flex">
             <div className="modal-img left">
               <img src={props.image} alt="" />
-              <p>{props.f9}</p>
-              <p>{props.f10}</p>
-              <p>{props.f11}</p>
-              <p>{props.f12}</p>
             </div>
             <div className="modal-text right">
               <span>Featured - Design</span>
@@ -66,11 +62,6 @@ const Card = (props) => {
                 <button className="btn_shadow">
                   YOUTUBE<i class="fab fa-youtube"></i>
                 </button>
-                <div style={{ marginLeft: "33px" }}>
-                  <button className="btn_shadow" onClick={toggleModal}>
-                    BACK<i class="fas fa-reply-all"></i>
-                  </button>
-                </div>
               </div>
               <button className="close-modal btn_shadow" onClick={toggleModal}>
                 <i class="fas fa-times"></i>

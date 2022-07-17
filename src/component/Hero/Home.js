@@ -34,11 +34,11 @@ const Home = () => {
             </h2>
 
             <p>
-              I use diagrams and use cases as tools for overlapping engineering
-              work with which to simplify experiences and guide every
-              interaction. I do all the interaction and organization of the
-              code, which helps the programming work and the modification of any
-              incident that I can do .
+              Building the code is done in all of its stages (analysis, design,
+              planning ...) to personification the experiences and guide every
+              intractive operation of the system.
+              <br />I use design patterns to organize the code which helps in
+              building a maintainable, extandable and well orginized code..
             </p>
 
             <div className="hero_btn d_flex">
@@ -49,7 +49,10 @@ const Home = () => {
                     href="https://www.facebook.com/salah.drbas.1"
                     target="_blank"
                   >
-                    <button className="btn_shadow">
+                    <button
+                      className="btn_shadow"
+                      style={{ cursor: "pointer" }}
+                    >
                       <i class="fab fa-facebook-f"></i>
                     </button>
                   </a>
@@ -57,7 +60,10 @@ const Home = () => {
                     href="https://www.instagram.com/salahdrbas/"
                     target="_blank"
                   >
-                    <button className="btn_shadow">
+                    <button
+                      className="btn_shadow"
+                      style={{ cursor: "pointer" }}
+                    >
                       <i class="fab fa-instagram"></i>
                     </button>
                   </a>
@@ -65,14 +71,20 @@ const Home = () => {
                     href="https://www.linkedin.com/in/salah-derbas-654967228/"
                     target="_blank"
                   >
-                    <button className="btn_shadow">
+                    <button
+                      className="btn_shadow"
+                      style={{ cursor: "pointer" }}
+                    >
                       <i class="fab fa-linkedin-in"></i>
                     </button>
                   </a>
                   <br />
                   <br />
                   <a href="https://github.com/SalahDerbas" target="_blank">
-                    <button className="btn_shadow">
+                    <button
+                      className="btn_shadow"
+                      style={{ cursor: "pointer" }}
+                    >
                       <i class="fab fa-github"></i>
                     </button>
                   </a>
@@ -81,7 +93,10 @@ const Home = () => {
                     href="https://www.youtube.com/channel/UCEYTgaou2YKbymbC0mUnAhw"
                     target="_blank"
                   >
-                    <button className="btn_shadow">
+                    <button
+                      className="btn_shadow"
+                      style={{ cursor: "pointer" }}
+                    >
                       <i class="fab fa-youtube"></i>
                     </button>
                   </a>

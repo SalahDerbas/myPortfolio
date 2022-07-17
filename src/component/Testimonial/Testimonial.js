@@ -25,65 +25,157 @@ const Testimonial = () => {
 
   return (
     <>
-    
       <section className="Testimonial" id="skills">
         <div className="container">
-        <br/>
+          <br />
 
           <div className="heading text-center" style={{ marginTop: "217px" }}>
             <h4>WHAT SKILLS SAY</h4>
             <h1>SKILLS</h1>
 
-            <div class="list-group w-50">
-            
-              <a href="#" class="list-group-item list-group-item-action">
-                  
-                  <span class="badge1 rounded-pill bg-primary float-end">HTML/HTML5</span>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action">
-                  <span class="badge1 rounded-pill bg-primary float-end">CSS/CSS3</span>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action">
-                  <span class="badge1 rounded-pill bg-primary float-end">Bootstrap</span>
-              </a>
+            <div className="content-section mtop d_flex">
+              <div className="left">
+                <div className="content">
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      HTML/HTML5
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      CSS/CSS3
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      Bootstrap
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      JavaScript
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      SQL
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      Typescript
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      Ajax
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      Jest/Testing
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      AWS
+                    </p>
+                  </span>
+                </div>
+              </div>
+
+              <div className="left">
+                <div className="content">
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      PHP/Laravel
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      RestFull API
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      React JS/ Redux
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      PrimeReact UI
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      MySQL
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      Firebase
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      Agile
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      Linux
+                    </p>
+                  </span>
+                  <span class="badge1">
+                    <p class="text-center" style={{ color: "white" }}>
+                      C/C++
+                    </p>
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
-          </div>
-          
-          <div className="slide">
-            {/*{TestimonialApi.map((val, index) => {
-              return <Slide key={index} image={val.image} design={val.design} name={val.name} offcer={val.offcer} post={val.post} date={val.date} desc={val.desc} />
-            })}*/}
-            
-            <div class="wrapper text-center">
+
+          {/* <div className="slide"> */}
+
+          {/* <div class="wrapper text-center">
               <div>
-              <span class="badge1"><p class="" style={{color: "white"}}>HTML/HTML5</p></span>
+                <span class="badge1">
+                  <p class="" style={{ color: "white" }}>
+                    HTML/HTML5
+                  </p>
+                </span>
               </div>
               <br />
               <div>
-              <span class="badge1"><p style={{color: "white"}}>CSS/CSS3</p></span>
+                <span class="badge1">
+                  <p style={{ color: "white" }}>CSS/CSS3</p>
+                </span>
               </div>
               <br />
               <div>
-              <span class="badge1"><p style={{color: "white"}}>Bootstrap</p></span>
-              </div>
-              {/* <div class="skill">
+                <span class="badge1">
+                  <p style={{ color: "white" }}>Bootstrap</p>
+                </span>
+              </div> */}
+          {/* <div class="skill">
                 <div class="skill-bar skill1">
                   <span class="skill-count1">85%</span>
                 </div>
               </div> */}
-              {/* <div class="skill">
+          {/* <div class="skill">
                 <p>CSS/CSS3</p>
                 <div class="skill-bar skill2">
                   <span class="skill-count2">85%</span>
                 </div>
               </div> */}
-              {/* <div class="skill">
+          {/* <div class="skill">
                 <p>Bootstrap</p>
                 <div class="skill-bar skill3">
                   <span class="skill-count3">85%</span>
                 </div>
               </div> */}
-              <div class="skill">
+          {/* <div class="skill">
                 <p>JavaScript</p>
                 <div class="skill-bar skill4">
                   <span class="skill-count4">70%</span>
@@ -181,8 +273,8 @@ const Testimonial = () => {
                   <span class="skill-count3">75%</span>
                 </div>
               </div>
-            </div>
-            {/* <div class="wrapper">
+            </div> */}
+          {/* <div class="wrapper">
               <div class="skill">
                 <p>Agile</p>
                 <div class="skill-bar skill3">
@@ -222,7 +314,7 @@ const Testimonial = () => {
               </div>
             </div> */}
 
-            {/* {data.map((value, valueIndex) => {
+          {/* {data.map((value, valueIndex) => {
               return <Slide key={value.id} {...value} valueIndex={valueIndex} index={index} />
             })}
 
@@ -234,7 +326,7 @@ const Testimonial = () => {
                 <i class='fas fa-arrow-right'></i>
               </button>
             </div> */}
-          </div>
+          {/* </div> */}
         </div>
       </section>
     </>

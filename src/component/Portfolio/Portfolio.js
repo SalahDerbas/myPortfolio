@@ -8,13 +8,14 @@ const Portfolio = () => {
     <>
       <section className="Portfolio top" id="portfolio">
         <div className="container">
-        <br/><br/> <br/> <br/><br/><br/>
-
+          <br />
+          <br /> <br /> <br />
+          <br />
+          <br />
           <div className="heading text-center ">
             <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
             <h1>My Portfolio</h1>
           </div>
-
           <div className="content grid">
             {Portfolio_data.map((value, index) => {
               return (
@@ -32,10 +33,6 @@ const Portfolio = () => {
                   f6={value.f6}
                   f7={value.f7}
                   f8={value.f8}
-                  f9={value.f9}
-                  f10={value.f10}
-                  f11={value.f11}
-                  f12={value.f12}
                 />
               );
             })}

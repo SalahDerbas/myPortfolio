@@ -30,6 +30,7 @@
 .Contact input {
   margin-top: 10px;
 }
+
 .Contact .right button {
   width: 100%;
   color: #ff014f;
@@ -59,8 +60,17 @@
   color: #fefefe;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
-
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
 
 @media (max-width: 768px) {
   .Contact .d_flex {
@@ -77,7 +87,7 @@
   right: 0px;
   top: 82%;
 }
-.whatsapp h5  {
+.whatsapp h5 {
   color: white;
   background: #20b20f;
   padding: 20px;

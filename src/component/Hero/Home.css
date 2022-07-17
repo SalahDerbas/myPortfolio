@@ -105,7 +105,8 @@
   }
   .hero .right_img img {
     position: absolute;
-    top: 0;
+    top: 2%;
+    left: 8%;
     right: 9%;
     width: 62%;
   }

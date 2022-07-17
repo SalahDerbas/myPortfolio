@@ -9,7 +9,7 @@ const data = [
     id: 2,
     image: "./features/backend.jpg",
     title: "Backend Developer",
-    desc: " I am building code that allows a database and an application to communicate with each other. I take care of the backend development and maintenance of the backend of a website, including databases, servers, and applications",
+    desc: "I take care of the backend development and maintenance of the backend of a website, including databases, servers, and applications",
   },
   {
     id: 3,

@@ -141,12 +141,13 @@ body.active-modal {
   .modal,
   .overlay {
     overflow: scroll;
-    height: 800px;
+    height: 100%;
   }
 
   .modal .modal-img {
     margin: 50px 0 50px 0;
-    width: 40%;
+    height: 50%;
+    width: 100%;
   }
   .modal-content {
     flex-direction: column;
@@ -154,5 +155,11 @@ body.active-modal {
   .modal .right,
   .modal .left {
     padding: 0;
+  }
+
+  .Portfolio h2 {
+    font-size: 14px;
+    transition: 0.5s;
+    padding-bottom: 30px;
   }
 }
