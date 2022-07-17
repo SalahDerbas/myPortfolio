@@ -14,14 +14,14 @@
   height: 300px;
   overflow: hidden;
   transition: 0.5s;
-  height: 80%;
+  height: 64%;
   /* width: 100%; */
 }
 .Portfolio img {
   width: 100%;
   border-radius: 10px;
   transition: 0.5s;
-  height: 570px;
+  height: 231px;
 }
 .Portfolio .box .img:hover img {
   transform: scale(1.2);

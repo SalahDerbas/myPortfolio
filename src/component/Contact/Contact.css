@@ -41,6 +41,9 @@
 .Contact .right button i {
   margin-left: 10px;
 }
+.Contact .box_shodow{
+  height: 100%;
+}
 .wrapper1 {
   margin: 4px;
   display: flex;
