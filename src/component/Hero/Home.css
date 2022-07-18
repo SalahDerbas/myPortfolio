@@ -59,16 +59,16 @@
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 101px;
-  height: 519px;
+  height: 65%;
   width: 391px;
-  margin-top: 21%;
+  margin-top: 21.7%;
 }
 .hero .right_img img {
   position: absolute;
   top: 0;
   /* right: 40%; */
   width: 50%;
-  border-radius: 109px;
+  border-radius: 22%;
 }
 @media (max-width: 768px) {
   .hero .right,
