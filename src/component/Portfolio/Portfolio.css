@@ -87,7 +87,7 @@ body.active-modal {
   background-color: #ecf0f3;
 }
 .modal-content {
-  position: absolute;
+  position: sticky;
   top: 12%;
   left: 8%;
   line-height: 1.4;
@@ -102,7 +102,6 @@ body.active-modal {
   padding: 50px;
   border-radius: 10px;
 }
-
 .modal-text {
   padding: 0 100px 0 50px;
 }
@@ -136,6 +135,12 @@ body.active-modal {
 .modal-text button.close-modal i {
   margin: 0;
 }
+.modal .left {
+  width: 30%;
+}
+.modal .right {
+  width: 70%;
+}
 /*------------popup--------*/
 @media (max-width: 768px) {
   .modal,
@@ -147,11 +152,12 @@ body.active-modal {
   .modal .modal-img {
     margin: 50px 0 50px 0;
     height: 50%;
-    width: 100%;
+    width: 70%;
   }
   .modal-content {
     flex-direction: column;
   }
+
   .modal .right,
   .modal .left {
     padding: 0;

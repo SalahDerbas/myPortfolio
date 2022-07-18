@@ -8,13 +8,20 @@ const Resume = () => {
     <>
       <section className="Resume" id="resume">
         <div className="container top">
-        <br/><br/> <br/> <br/><br/><br/>
-
+          <br />
+          <br /> <br /> <br />
+          <br />
+          <br />
           <div className="heading text-center">
             <h4>3+ YEARS WORK EXPERIENCE</h4>
             <h1>My Resume</h1>
+            <br /> <br />
+            <a href="./CV/Salah's Resume.pdf" download>
+              <button class="btn1">
+                <i class="fa fa-download"></i> Download
+              </button>
+            </a>
           </div>
-
           <div className="content-section mtop d_flex">
             <div className="left">
               <div className="heading">
