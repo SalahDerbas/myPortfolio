@@ -69,6 +69,7 @@
   /* right: 40%; */
   width: 50%;
   border-radius: 22%;
+  height: 84%;
 }
 @media (max-width: 768px) {
   .hero .right,
@@ -83,7 +84,7 @@
   }
   .hero .right_img {
     width: 56%;
-    height: 54vh;
+    height: 56vh;
     margin-left: 10%;
   }
 }
@@ -110,5 +111,6 @@
     left: 8%;
     right: 9%;
     width: 62%;
+    height: 98%;
   }
 }
