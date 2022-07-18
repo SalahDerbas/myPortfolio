@@ -13,6 +13,8 @@ const Portfolio_data = [
     f6: "6-Accounts management operations for accountants.",
     f7: "7-Bring out the statistics for the profit and loss rate in the previous months for the restaurant.",
     f8: "8-Export customer orders invoices.",
+    github: "https://github.com/SalahDerbas/RestManagementSystem",
+    youtube: "https://www.youtube.com/watch?v=mz_12Ls_fss",
   },
   {
     id: 2,
@@ -28,6 +30,8 @@ const Portfolio_data = [
     f6: "",
     f7: "",
     f8: "",
+    github: "https://github.com/SalahDerbas/chat",
+    youtube: "https://www.youtube.com/watch?v=FM4cKvFki58",
   },
   {
     id: 3,
@@ -44,6 +48,8 @@ const Portfolio_data = [
     f6: "",
     f7: "",
     f8: "",
+    github: "https://github.com/SalahDerbas/Chart",
+    youtube: "https://www.youtube.com/watch?v=XmSKcVEZV5o",
   },
   {
     id: 4,
@@ -59,6 +65,8 @@ const Portfolio_data = [
     f6: "6-Operations of addition, modification, deletion and presentation to banks and sections of banks.",
     f7: "7-Operations of adding, modifying, deleting, displaying to users and creating accounts for them.",
     f8: "8-Assigning tasks and powers and separating them for assignment to the establishing employees.",
+    github: "https://github.com/SalahDerbas/Invoicing_bill",
+    youtube: "https://www.youtube.com/watch?v=izzOScdNv5s",
   },
   {
     id: 5,
@@ -74,6 +82,8 @@ const Portfolio_data = [
     f6: "6-Use JWT of the for authorization and authentication.",
     f7: "",
     f8: "",
+    github: "https://github.com/SalahDerbas/RestFull-API",
+    youtube: "https://www.youtube.com/watch?v=DwKRFgv_5rY",
   },
   {
     id: 6,
@@ -89,6 +99,9 @@ const Portfolio_data = [
     f6: "",
     f7: "",
     f8: "",
+    github: "https://github.com/SalahDerbas",
+    youtube:
+      "https://www.youtube.com/channel/UCEYTgaou2YKbymbC0mUnAhw/featured",
   },
   {
     id: 7,
@@ -104,6 +117,9 @@ const Portfolio_data = [
     f6: "",
     f7: "",
     f8: "",
+    github: "https://github.com/SalahDerbas/PortfolioDynamic",
+    youtube:
+      "https://www.youtube.com/channel/UCEYTgaou2YKbymbC0mUnAhw/featured",
   },
   {
     id: 8,
@@ -119,6 +135,9 @@ const Portfolio_data = [
     f6: "",
     f7: "",
     f8: "",
+    github: "https://github.com/SalahDerbas/Chat_firebas",
+    youtube:
+      "https://www.youtube.com/channel/UCEYTgaou2YKbymbC0mUnAhw/featured",
   },
   {
     id: 9,
@@ -134,6 +153,8 @@ const Portfolio_data = [
     f6: "",
     f7: "",
     f8: "",
+    github: "https://github.com/SalahDerbas/ShoppingReact",
+    youtube: "https://www.youtube.com/watch?v=eeastWLo-gc",
   },
   {
     id: 10,
@@ -149,6 +170,9 @@ const Portfolio_data = [
     f6: "",
     f7: "",
     f8: "",
+    github: "https://github.com/SalahDerbas",
+    youtube:
+      "https://www.youtube.com/channel/UCEYTgaou2YKbymbC0mUnAhw/featured",
   },
 ];
 export default Portfolio_data;

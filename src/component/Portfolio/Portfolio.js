@@ -33,6 +33,8 @@ const Portfolio = () => {
                   f6={value.f6}
                   f7={value.f7}
                   f8={value.f8}
+                  github={value.github}
+                  youtube={value.youtube}
                 />
               );
             })}
