@@ -89,7 +89,7 @@ const Contact = () => {
                   <br />
                   <br />
                   <h4> Connect with me :</h4>
-                  <p>Phone: &nbsp;&nbsp;&nbsp;(+963) 936453165</p>
+                  <p>Phone: &nbsp;&nbsp;&nbsp;(+962) 785204657</p>
                   <p>Email: &nbsp;&nbsp;&nbsp;&nbsp;salahdrbas1@gmail.com</p>
                   <br />
                   <br />
