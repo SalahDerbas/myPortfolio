@@ -56,12 +56,16 @@ const Card = (props) => {
                 className="button f_flex mtop"
                 style={{ marginTop: "100px" }}
               >
-                <button className="btn_shadow">
-                  GITHUB<i class="fab fa-github"></i>
-                </button>
-                <button className="btn_shadow">
-                  YOUTUBE<i class="fab fa-youtube"></i>
-                </button>
+                <a href={props.github} target="_blank">
+                  <button className="btn_shadow">
+                    GITHUB<i class="fab fa-github"></i>
+                  </button>
+                </a>
+                <a href={props.youtube} target="_blank">
+                  <button className="btn_shadow">
+                    YOUTUBE<i class="fab fa-youtube"></i>
+                  </button>
+                </a>
               </div>
               <button className="close-modal btn_shadow" onClick={toggleModal}>
                 <i class="fas fa-times"></i>

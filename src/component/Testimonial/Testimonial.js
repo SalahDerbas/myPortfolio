@@ -28,12 +28,40 @@ const Testimonial = () => {
       <section className="Testimonial" id="skills">
         <div className="container">
           <br />
+          <br />
+          <br />
 
-          <div className="heading text-center" style={{ marginTop: "217px" }}>
-            <h4>WHAT SKILLS SAY</h4>
-            <h1>SKILLS</h1>
+          <div className="heading" style={{ marginTop: "217px" }}>
+            <h4 className="text-center">WHAT SKILLS SAY</h4>
+            <h1 className="text-center">SKILLS</h1>
 
-            <div className="content-section mtop d_flex">
+            <br />
+            <br />
+            <br />
+            {/* <div class="container1"> */}
+            <div class="bar front expert" data-skill="HTML/HTML5"></div>
+            <div class="bar front expert" data-skill="CSS/CSS3"></div>
+            <div class="bar front expert" data-skill="Bootstrap"></div>
+            <div class="bar front advanced" data-skill="JavaScript"></div>
+            <div class="bar front advanced" data-skill="PHP / Laravel"></div>
+            <div class="bar front advanced" data-skill="RestFull API"></div>
+            <div class="bar front advanced" data-skill="React JS/ Redux"></div>
+            <div class="bar front advanced" data-skill="MySQL"></div>
+            <div class="bar front intermediate" data-skill="Ajax"></div>
+            <div class="bar front intermediate" data-skill="Typescript"></div>
+            <div class="bar front intermediate" data-skill="Firebase"></div>
+            <div class="bar front intermediate" data-skill="Agile"></div>
+            <div class="bar front intermediate" data-skill="Linux"></div>
+            <div class="bar front intermediate" data-skill="C/C++"></div>
+            <div class="bar front learning" data-skill="AWS"></div>
+            <div class="bar front basic" data-skill="Jest/Testing"></div>
+            <div
+              class="bar front intermediate"
+              data-skill="PrimeReact UI"
+            ></div>
+            {/* </div> */}
+
+            {/* <div className="content-section mtop d_flex">
               <div className="left">
                 <div className="content">
                   <span class="badge1">
@@ -133,7 +161,7 @@ const Testimonial = () => {
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* <div className="slide"> */}

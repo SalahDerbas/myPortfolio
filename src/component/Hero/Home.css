@@ -59,15 +59,17 @@
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 101px;
-  height: 627px;
+  height: 65%;
   width: 391px;
-  margin-top: 21%;
+  margin-top: 21.7%;
 }
 .hero .right_img img {
   position: absolute;
   top: 0;
   /* right: 40%; */
   width: 50%;
+  border-radius: 22%;
+  height: 84%;
 }
 @media (max-width: 768px) {
   .hero .right,
@@ -82,7 +84,7 @@
   }
   .hero .right_img {
     width: 56%;
-    height: 54vh;
+    height: 56vh;
     margin-left: 10%;
   }
 }
@@ -109,5 +111,6 @@
     left: 8%;
     right: 9%;
     width: 62%;
+    height: 98%;
   }
 }
