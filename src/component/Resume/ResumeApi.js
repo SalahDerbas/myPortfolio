@@ -34,7 +34,7 @@ const ResumeApi = [
   {
     id: 5,
     category: "experience",
-    year: "Frontend Developer/ React JS (07/2021 – Present )",
+    year: "Frontend Developer/ React JS (07/2021 – 07/2022)",
     title: "TndraTech Company",
     desc: "A subsidiary of an American company It works in the ﬁeld of web and Several Management projects have been built .",
     rate: "4/5 ",
@@ -45,6 +45,14 @@ const ResumeApi = [
     year: "Backend Developer/ Laravel (01/2019- Present)",
     title: "Freelancer",
     desc: "Work freely and for your own good - Several Management projects have been built -Project built Chat Application - Project built Portfolio Dynamic.",
+    rate: "4/5 ",
+  },
+  {
+    id: 7,
+    category: "experience",
+    year: "Full Stack Developer (09/2022- Present)",
+    title: "Potato Tech",
+    desc: "Work freely and for your own good - Several Management projects have been built -Project built Mazad Time  - Project built Ecommerce ...",
     rate: "4/5 ",
   },
 ];

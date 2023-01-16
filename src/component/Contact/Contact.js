@@ -201,7 +201,7 @@ const Contact = () => {
         </div>
         <div class="whatsapp">
           <a
-            href="https://api.whatsapp.com/send?phone=963936453165"
+            href="https://api.whatsapp.com/send?phone=962785204657"
             target="_blank"
           >
             <h5>
